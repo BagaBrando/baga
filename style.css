@@ -1,0 +1,27 @@
+.header{
+    background-color: black;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    color: white;
+}
+.header li{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+.header li:hover{
+    color: red;
+}
+.header input[type="button"]{
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+.header input[type="search"]{
+    border-radius: 10px;
+    margin-top: 10px;
+}
